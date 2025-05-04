@@ -21,7 +21,7 @@
 
             <div class="col-xl-5 col-md-6">
                 <div class="mini-logo text-center my-3">
-                    <a href="{{ env('WEBSITE_URL') }}"><img style="height:130px;" src="{{ asset('images/logo.svg') }}"
+                    <a href="{{ env('WEBSITE_URL') }}"><img style="height:50px;" src="{{ asset('images/logo.svg') }}"
                             alt=""></a>
                 </div>
                 @error('account_locked')
