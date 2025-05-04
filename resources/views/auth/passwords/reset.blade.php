@@ -6,14 +6,13 @@
             <div class="row justify-content-center h-100 align-items-center">
                 <div class="col-xl-5 col-md-6">
                     <div class="mini-logo text-center my-5">
-                        <a href="{{ env('WEBSITE_URL') }}"><img class="h-75"
-                                src="{{ asset('images/logo.png') }}" alt=""></a>
+                        <a href="{{ env('WEBSITE_URL') }}"><img src="{{ asset('images/logo.png') }}" alt="" height="50px"></a>
                     </div>
                     <div class="auth-form card">
-                        <div class="card-header justify-content-center">
+                        <div class="card-header login-card-header justify-content-center">
                             <h4 class="card-title">Reset Password</h4>
                         </div>
-                        <div class="card-body">
+                        <div class="card-body login-card-header">
                             <form method="POST" action="{{ route('password.update') }}">
                                 @csrf
 
@@ -24,7 +23,7 @@
                                     <div class="col-md-12">
                                         <label for="email" class="">{{ __('E-Mail Address') }}</label>
                                         <input id="email" type="email"
-                                            class="form-control @error('email') is-invalid @enderror" name="email"
+                                            class="login-feilds form-control @error('email') is-invalid @enderror" name="email"
                                             value="{{ $email ?? old('email') }}" required autocomplete="email" autofocus>
 
                                         @error('email')
@@ -40,7 +39,7 @@
                                     <div class="col-md-12">
                                         <label for="password" class="">{{ __('Password') }}</label>
                                         <input id="password" type="password"
-                                            class="form-control @error('password') is-invalid @enderror" name="password"
+                                            class="login-feilds form-control @error('password') is-invalid @enderror" name="password"
                                             required autocomplete="new-password">
 
                                         @error('password')
@@ -56,7 +55,7 @@
                                     <div class="col-md-12">
                                         <label for="password-confirm"
                                             class="">{{ __('Confirm Password') }}</label>
-                                        <input id="password-confirm" type="password" class="form-control"
+                                        <input id="password-confirm" type="password" class="login-feilds form-control"
                                             name="password_confirmation" required autocomplete="new-password">
                                     </div>
                                 </div>
