@@ -56,7 +56,7 @@
                     <tr>
                         <td style="text-align:center;">
                             <a href="{{config('email_template.website_link')}}" title="logo" target="_blank">
-                                <img width="40" src="{{config('email_template.logo')}}"
+                                <img width="150" src="{{config('email_template.logo')}}"
                                     title="logo" alt="logo">
                             </a>
                         </td>
