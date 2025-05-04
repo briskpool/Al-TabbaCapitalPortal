@@ -10,8 +10,8 @@
                         <a href="{{ env('WEBSITE_URL') }}"><img src="{{ asset('images/logo.png') }}" alt="" height="50px"></a>
                     </div>
                     <div class="auth-form card">
-                        <div class="card-header justify-content-center">
-                            <h4 class="card-title login-card-header">Answer the security question</h4>
+                        <div class="card-header login-card-header justify-content-center">
+                            <h4 class="card-title ">Answer the security question</h4>
                         </div>
                         <div class="card-body">
 
