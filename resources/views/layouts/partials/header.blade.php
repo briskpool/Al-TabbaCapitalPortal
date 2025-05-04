@@ -7,7 +7,7 @@
                     <div class="header-search d-flex align-items-center">
                         <a class="brand-logo mr-3"
                             href="{{ auth()->user()->is_admin ? route('clients.index') : route('trade-statement') }}">
-                            <img src="{{ asset('images/logo.png') }}" height="60" alt="">
+                            <img src="{{ asset('images/logo.png') }}" height="40" alt="">
                         </a>
                     </div>
 

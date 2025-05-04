@@ -1,6 +1,6 @@
 <div class="sidebar">
     <a class="brand-logo" href="{{ auth()->user()->is_admin ? route('clients.index') : route('trade-statement') }}">
-        <img class="w-25" src="{{ asset('images/logo.png') }}" alt="">
+        <img src="{{ asset('images/logo.png') }}" alt="">
     </a>
     <div class="menu">
         <ul>
