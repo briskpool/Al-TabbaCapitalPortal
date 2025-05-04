@@ -86,24 +86,9 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 list-img">
-                        <a href="https://play.google.com/store/apps/details?id=com.app.igglobalandsavings&amp;pli=1"
-                            target="_blank" contenteditable="false" style="cursor: pointer;">
-                            <li class="pb-2">
-                                <img src="https://igglobalandsavings.com/images/icons/playstore.svg"
-                                    style="height:42px">
-                            </li>
-                        </a>
-                        <a href="https://apps.apple.com/pk/app/ig-global-and-savings/id6458223535" target="_blank"
-                            contenteditable="false" style="cursor: pointer;">
-                            <li class="pl-2 pb-3 ">
-                                <img src="https://igglobalandsavings.com/images/icons/appstore.svg" style="height:42px">
-                            </li>
-                        </a>
-                    </div>
                     <div class="col-12">
                         <div class="py-2 mb-4 d-flex justify-content-center">
-                            Copyright © IG Global & Savings <?php echo date("Y"); ?>
+                            Copyright © {{env('APP_NAME')}} <?php echo date("Y"); ?>
                         </div>
                     </div>
                 </div>
