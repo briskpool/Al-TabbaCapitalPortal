@@ -2798,8 +2798,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #ee3e38;
-  border-color: #ee3e38;
+  background-color: #ffaf32;
+  border-color: #ffaf32;
 }
 
 .btn-primary:hover {
@@ -2836,40 +2836,40 @@ fieldset:disabled a.btn {
 
 .btn-secondary {
   color: #29294e;
-  background-color: #ee3e38;
-  border-color: #ee3e38;
+  background-color: #ffaf32;
+  border-color: #ffaf32;
 }
 
 .btn-secondary:hover {
   color: #fff;
-  background-color: #ee3e38;
-  border-color: #ee3e38;
+  background-color: #ffaf32;
+  border-color: #ffaf32;
 }
 
 .btn-secondary:focus,
 .btn-secondary.focus {
-  box-shadow: 0 0 0 0.2rem #ee3e38;
+  box-shadow: 0 0 0 0.2rem #ffaf32;
 }
 
 .btn-secondary.disabled,
 .btn-secondary:disabled {
-  color: #ee3e38;
+  color: #ffaf32;
   background-color: transparent;
-  border-color: #ee3e38;
+  border-color: #ffaf32;
 }
 
 .btn-secondary:not(:disabled):not(.disabled):active,
 .btn-secondary:not(:disabled):not(.disabled).active,
 .show > .btn-secondary.dropdown-toggle {
   color: #fff;
-  background-color: #ee3e38;
-  border-color: #ee3e38;
+  background-color: #ffaf32;
+  border-color: #ffaf32;
 }
 
 .btn-secondary:not(:disabled):not(.disabled):active:focus,
 .btn-secondary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-secondary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem #ee3e38;
+  box-shadow: 0 0 0 0.2rem #ffaf32;
 }
 
 .btn-success {
@@ -3714,7 +3714,7 @@ input[type="button"].btn-block {
 .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #ee3e38;
+  background-color: #ffaf32;
 }
 
 .dropdown-item.disabled,
@@ -11956,7 +11956,7 @@ strong {
   transform: translateY(-50%);
   width: 20px;
   height: 20px;
-  background-color: #ee3e38;
+  background-color: #ffaf32;
   border-radius: 100%;
   display: inline-block;
   -webkit-animation: sk-three-bounce 1.4s ease-in-out 0s infinite both;
@@ -15342,7 +15342,7 @@ a.text-success:focus {
 }
 
 .text-info {
-  color: #ee3e38 !important;
+  color: #ffaf32 !important;
 }
 
 a.text-info:hover,
@@ -15611,7 +15611,7 @@ a:focus,
 a.active {
   text-decoration: none;
   outline: none;
-  color: #ee3e38;
+  color: #ffaf32;
 }
 
 b,
@@ -15893,7 +15893,7 @@ strong {
   transform: translateY(-50%);
   width: 20px;
   height: 20px;
-  background-color: #ee3e38;
+  background-color: #ffaf32;
   border-radius: 100%;
   display: inline-block;
   -webkit-animation: sk-three-bounce 1.4s ease-in-out 0s infinite both;
@@ -16006,14 +16006,14 @@ strong {
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 0px;
-  color: #ee3e38;
+  color: #ffaf32;
 }
 
 .page_title p {
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 0px;
-  color: #ee3e38;
+  color: #ffaf32;
 }
 
 .page_title p span {
@@ -16308,7 +16308,7 @@ button.navbar-toggler {
   border: 1px solid rgba(255, 255, 255, 0.08);
   display: inline-block;
   margin-right: 15px;
-  background: #ee3e38;
+  background: #ffaf32;
   color: #fff;
   text-align: center;
   padding: 4px 0;
@@ -16328,7 +16328,7 @@ button.navbar-toggler {
   margin-right: 30px;
   font-size: 18px;
   font-weight: 500;
-  color: #ee3e38;
+  color: #ffaf32;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -16396,7 +16396,7 @@ button.navbar-toggler {
 .profile_log .dropdown-menu .dropdown-item i {
   margin-right: 10px;
   font-size: 22px;
-  color: #ee3e38;
+  color: #ffaf32;
   font-weight: bold;
 }
 
@@ -16404,7 +16404,7 @@ button.navbar-toggler {
 .profile_log .dropdown-menu .dropdown-item:focus,
 .profile_log .dropdown-menu .dropdown-item:active {
   color: #fff;
-  background: #ee3e38;
+  background: #ffaf32;
   border-radius: 5px;
 }
 
@@ -16500,7 +16500,7 @@ button.navbar-toggler {
     bottom: 0;
     width: 100%;
     height: 50px;
-    background: #ee3e38;
+    background: #ffaf32;
     padding: 0px;
   }
 }
@@ -16570,7 +16570,7 @@ button.navbar-toggler {
 .menu ul li a:hover,
 .menu ul li a:focus,
 .menu ul li a:active {
-  color: #ee3e38;
+  color: #ffaf32;
 }
 
 @media only screen and (max-width: 767px) {
@@ -16583,18 +16583,18 @@ button.navbar-toggler {
 }
 
 .menu ul li a.active i {
-  color: #ee3e38;
+  color: #ffaf32;
 }
 
 @media only screen and (max-width: 767px) {
   .menu ul li a.active i {
-    color: #ee3e38;
+    color: #ffaf32;
     opacity: 1;
   }
 }
 
 .menu ul li a.active .nav-text {
-  color: #ee3e38;
+  color: #ffaf32;
 }
 
 @media only screen and (max-width: 767px) {
@@ -16933,7 +16933,7 @@ input:-internal-autofill-selected {
 }
 
 .input-group-text:hover {
-  color: #ee3e38;
+  color: #ffaf32;
 }
 
 .input-group-append .input-group-text {
@@ -17053,7 +17053,7 @@ input:-internal-autofill-selected {
 }
 
 .file-upload-wrapper:hover:before {
-  color: #ee3e38;
+  color: #ffaf32;
   background: #29294e;
   /* transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; */
 }
@@ -17113,21 +17113,21 @@ table {
 }
 
 .ui-datepicker-calendar tbody td a:hover {
-  background-color: #ee3e38;
+  background-color: #ffaf32;
   color: white;
 }
 
 .ui-datepicker-today a {
-  border: 1px solid #ee3e38;
+  border: 1px solid #ffaf32;
   border-radius: 0.25rem;
 }
 
 /* .ui-datepicker-today .ui-state-default {
-    background-color: #EE3E38;
+    background-color: #ffaf32;
 } */
 
 .ui-datepicker-calendar tbody td a.ui-state-active {
-  background-color: #ee3e38;
+  background-color: #ffaf32;
   color: white;
 }
 
@@ -17959,11 +17959,11 @@ button,
 }
 
 .settings_menu ul li a.active {
-  color: #ee3e38;
+  color: #ffaf32;
 }
 
 .settings_menu ul li a:hover {
-  color: #ee3e38;
+  color: #ffaf32;
 }
 
 .settings_menu ul li i {
@@ -18367,7 +18367,7 @@ select {
 
 .paginate_button.current {
   color: #fff !important;
-  background: #ee3e38 !important;
+  background: #ffaf32 !important;
   padding-top: 3px !important;
   padding-bottom: 3px !important;
   border: none !important;
@@ -18433,7 +18433,7 @@ table.dataTable tbody td span {
 }
 
 .auth-form .toggle .toggle-checkbox:checked + .toggle-switch {
-  background-color: #ee3e38;
+  background-color: #ffaf32;
 }
 
 .list-img {
