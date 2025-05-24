@@ -116,7 +116,7 @@
                             <p
                                 style="font-size:14px; color:{{config('email_template.primary_color')}}; line-height:18px; margin:0 0 0;">
                             </p>
-                            <u style="text-decoration: none;list-style: none;display: inline-flex; font-size:13px;">
+                            <!-- <u style="text-decoration: none;list-style: none;display: inline-flex; font-size:13px;">
                                 <a href="{{config('email_template.linkedin')}}">
                                     <li style="padding: 6px;">Linkedin</li>
                                 </a>
@@ -137,7 +137,7 @@
                             <p>
                                 <span
                                     style="display:inline-block; vertical-align:middle; margin:0px 0 10px; border-bottom:1px solid rgba(0,0,0,.20); width:100px;"></span>
-                            </p>
+                            </p> -->
                             <p
                                 style="font-size:14px; color:rgba(69, 80, 86, 0.7411764705882353); line-height:18px; margin:0 0 0;">
                                 &copy; <strong>{{config('email_template.website_name')}}</strong> </p>
