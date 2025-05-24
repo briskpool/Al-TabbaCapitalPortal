@@ -11,6 +11,7 @@ return [
     'location' => '',
     'trustpilot' => '#',
     'primary_color' => '#ffae31',
+    'secondary_color' => '#1a1a1a',
     'footer_text' => 'This email and any attachments to it are confidential and intended solely for the person to whom they are
     addressed. They may contain legally privileged information. If you have
     received this in error, please delete this message and let us know by emailing ' . env('MAIL_FROM_ADDRESS') . '.

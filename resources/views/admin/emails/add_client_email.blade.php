@@ -79,7 +79,7 @@
                                         </p><br />
 
                                         <h1
-                                            style="color:{{config('email_template.primary_color')}}; font-weight:500; margin:0;font-size:22px;font-family:'Rubik',sans-serif;">
+                                            style="color:{{config('email_template.secondary_color')}}; font-weight:500; margin:0;font-size:22px;font-family:'Rubik',sans-serif;">
                                             Thank You For Joining {{env('APP_NAME')}}
                                         </h1>
                                         <p
