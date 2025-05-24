@@ -123,7 +123,7 @@
                                             <strong
                                                 style="display: block; margin: 0 0 4px; color:rgba(0,0,0,.64); font-weight:normal;"></strong>Can
                                             you make sure to change your password after you’ve logged in to keep your
-                                            account safe with IG Global.
+                                            account safe with {{env('APP_NAME')}}.
                                             If you have any questions, we’re always happy to help out, just email us.
                                         </p>
                                     </td>
@@ -143,7 +143,7 @@
                             <p
                                 style="font-size:14px; color:{{config('email_template.primary_color')}}; line-height:18px; margin:0 0 0;">
                             </p>
-                            <u style="text-decoration: none;list-style: none;display: inline-flex; font-size:13px;">
+                            <!-- <u style="text-decoration: none;list-style: none;display: inline-flex; font-size:13px;">
                                 <a href="{{config('email_template.linkedin')}}">
                                     <li style="padding: 6px;">Linkedin</li>
                                 </a>
@@ -160,7 +160,7 @@
                                     <li style="padding: 6px;">Trustpilot</li>
                                 </a>
 
-                            </u>
+                            </u> -->
                             <p>
                                 <span
                                     style="display:inline-block; vertical-align:middle; margin:0px 0 10px; border-bottom:1px solid rgba(0,0,0,.20); width:100px;"></span>
