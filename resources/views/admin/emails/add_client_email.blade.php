@@ -75,7 +75,7 @@
                                 <tr>
                                     <td style="padding:0 35px;">
                                         <p style="font-size:15px; color:#455056; margin:8px 0 0; line-height:24px;">
-                                            <b> Hello {{ucfirst($client['first_name'])}}</b>
+                                            <b> Hello {{ucfirst($client['full_name'])}}</b>
                                         </p><br />
 
                                         <h1

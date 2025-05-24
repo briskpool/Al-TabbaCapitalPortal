@@ -74,7 +74,7 @@
                                 <tr>
                                     <td style="padding:0 35px;">
                                         <h1
-                                            style="color:{{config('email_template.primary_color')}}; font-weight:500; margin:0;font-size:22px;font-family:'Rubik',sans-serif;">
+                                            style="color:{{config('email_template.secondary_color')}}; font-weight:500; margin:0;font-size:22px;font-family:'Rubik',sans-serif;">
                                             Message from Client
                                         </h1>
                                         <p
