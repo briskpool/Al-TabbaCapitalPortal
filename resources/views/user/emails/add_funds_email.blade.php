@@ -133,10 +133,10 @@
                                 </a>
 
                             </u> -->
-                            <p>
+                            <!-- <p>
                                 <span
                                     style="display:inline-block; vertical-align:middle; margin:0px 0 10px; border-bottom:1px solid rgba(0,0,0,.20); width:100px;"></span>
-                            </p>
+                            </p> -->
                             <p
                                 style="font-size:14px; color:rgba(69, 80, 86, 0.7411764705882353); line-height:18px; margin:0 0 0;">
                                 &copy; <strong>{{config('email_template.website_name')}}</strong> </p>
