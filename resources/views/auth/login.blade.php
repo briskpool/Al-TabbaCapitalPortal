@@ -35,7 +35,7 @@
                 @enderror
                 <div class="auth-form card">
                     <div class="card-header login-card-header justify-content-center">
-                        <h4 class="card-title">Client Portal</h4>
+                        <h4 class="card-title">Secure Login</h4>
                     </div>
                     <div class="card-body login-card-body">
                         <form method="post" name="myform" class="signin_validate" action="{{ route('login') }}">
